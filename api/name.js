@@ -31,7 +31,6 @@ var names = {
       "Aarav",
       "Vihaan",
       "Vivaan",
-      "Ananya",
       "Diya",
       "Advik",
       "Kabir",
@@ -123,9 +122,9 @@ var names = {
   var female = names.female;
   var male = names.male;
   var surnames = names.surnames;
-  var fnf = female[Math.floor(Math.random() * 24)];
-  var fnm = male[Math.floor(Math.random() * 35)];
-  var ln = surnames[Math.floor(Math.random() * 50)];
+  var fnf = female[Math.floor(Math.random() * 17676)];
+  var fnm = male[Math.floor(Math.random() * 12145)];
+  var ln = surnames[Math.floor(Math.random() * 58401)];
 
   var resultf = fnf +" "+ ln;
   var resultm = fnm +" "+ ln;
