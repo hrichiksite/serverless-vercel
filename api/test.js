@@ -1,6 +1,7 @@
-module.exports = async (req, res) => {
-  res.send({
-      status: "ok",
-      info: "This Is AppPro Internal API",
-    })
+module.exports = (req, res) => {
+  res.json({
+    body: req.body,
+    query: req.query,
+    cookies: req.cookies,
+  })
 }
