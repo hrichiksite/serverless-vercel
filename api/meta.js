@@ -2,7 +2,7 @@
 module.exports = async (req, res) => {
 const cheerio = require('cheerio');
 const got = require('got');
-
+var uri = "https://apppro.in"
 const fetch = async(uri, userArgs, callback) => {
     // Set defaults
     const options = {
