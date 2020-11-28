@@ -60,7 +60,8 @@ const respond = (data, error, callback) => {
         if(error){
             return Promise.reject(error);
         }
-        return Promise.resolve(data);
+        //return Promise.resolve(data);
+          res.send(data);
     }
     return callback(error, data);
 };
@@ -68,5 +69,4 @@ const respond = (data, error, callback) => {
 
 
 
-  res.send(data)
 }
