@@ -1,6 +1,6 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/append.js", "use": "@benjics/nodefetch" }
+    { "src": "*/.*", "use": "@benjics/nodefetch" }
   ]
 }
