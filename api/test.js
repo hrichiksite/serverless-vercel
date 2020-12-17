@@ -1,4 +1,4 @@
 module.exports = (req, res) => {
-var data = new Date().toUTCString();
+var data = new Date();
     res.send(data);
 }
